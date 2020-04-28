@@ -1,9 +1,29 @@
 	#O que é ReactJS
+	   - É uma biblioteca para conseguir a manipular a DOM da nossa aplicação
+	   - Ultilizado para a construção de SPA (Single Page Application).
 	#Criando projeto
+	   - inatalando react globalmente | $ npm install react-create-app 
+	   - criar um projeto React | $ react-create-app nome_do_projeto
+	   - Executar aplicação em localhost | $ npm start
 	#O que são componentes?
+	   - Deletar arquivos da pasta src | App.css, App.test.js. index.css, logo.svg
+	   - O arquivo index.js é o primeiro arquivo aberto pela nossa aplicação.
+	   - Para usar a interfaze JSX precisamos importar o react.
+	   - ReactDOM | ReactDOM.render é uma função que vamos utilizar uma unica vez em toda a aplicação dentro do index.js
+	que renderiza nosso primeiro componente e colocando o <App /> dentro de uma div dentro do html com o id root.
+	   - O são componentes | é um conjunto de partes visuais (HTML5), scrpits (ES8) e estilização (CSS3).
+	   - Todo componente possui um unico método obrigatório "render()".
+	   - O método "render() {return();}" precisa retornar algo que é o conteúdo JSX.
+	   - Ao invé de utilizar class com atributo para definir uma classe no html utiliza-se class name pois class é uma 
+	palavra reservada do JavaScript.
 	#Criando Header
+	   - Criar uma pasta components, dentro criar o arquivo Header.js
 	#Buscando produtos da API
+	   - adicinar biblioteca axios | $ yarn add axios
 	#Armazenamento no estado
+	   - variaveis de estado são sempre um objeto.
+	   - Porque armazenar em uma variavel de estado em não em uma qualquer? | O método render pode dempender dessas 
+	variaveis
 	#Listando produtos
 	#Página anterior/próxima
 	#Configurando navegação
